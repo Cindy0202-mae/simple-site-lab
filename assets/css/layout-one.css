@@ -1,0 +1,38 @@
+body {
+  background-color: antiquewhite;
+}
+nav ul li {
+  display: inline-block;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li:not(:last-child)::after {
+  content: " | ";
+  position: absolute;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav {
+  padding: 10px;
+}
+
+.group {
+  display: flex;
+  justify-content: space-around;
+}
+
+.first-div-group img {
+  height: 300px;
+  width: 450px;
+}
+
+.second-group img {
+  height: 350px;
+  width: 600px;
+}

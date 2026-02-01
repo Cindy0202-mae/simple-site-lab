@@ -1,0 +1,35 @@
+body {
+  background-color: antiquewhite;
+}
+nav ul li {
+  display: inline-block;
+  font-size: 32px;
+  margin-right: 10px;
+}
+
+li:not(:last-child)::after {
+  content: " | ";
+  position: absolute;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+p {
+  font-size: 26px;
+}
+
+.group {
+  padding: 12px;
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  height: auto;
+  width: 400px;
+  float: left;
+  padding: 15px;
+}
